@@ -21,7 +21,7 @@ frankenstein <- readtext("data/Frankenstein_Or_The_Modern_Prometheus.txt")
 #Text mining is a term that covers a large variety of approaches and concrete methods. 
 #In this example we will use the tidytext approach, which is presented in the book Text Mining with R - a tidy approach. 
 #This code takes the dataset Frankenstein and applies unnest_tokens(word, text), which tokenizes the text column into individual words. 
-#Each word becomes a separate row in the new dataset eyre_tidy, stored in the word column. 
+#Each word becomes a separate row in the new dataset frankenstein_tidy, stored in the word column. 
 #This process is commonly used in text mining to break text into manageable units for analysis
 
 frankenstein_tidy <- frankenstein %>% 
